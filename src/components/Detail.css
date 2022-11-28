@@ -1,0 +1,273 @@
+.detailFather {
+  border-radius: 20px;
+  height: 98vh;
+}
+.headerDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  color: #fff;
+  height: 30%;
+  height: fit-content;
+}
+
+.pokeballImgContainer {
+  width: 50%;
+  opacity: 0.05;
+  position: relative;
+  top: 5em;
+  left: 18em;
+  margin: -6.2em;
+}
+
+.mainDetail {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  justify-content: space-around;
+  background-color: #ffff;
+  border-radius: 1em;
+  margin: -3em 0;
+  min-height: 71.9vh;
+}
+.description {
+  padding: 0.5em 1em;
+  text-align: justify;
+  margin: 0;
+}
+.aboutBaseStats {
+  text-align: center;
+
+  font-weight: bolder;
+  padding: 1em;
+}
+
+.arrowAndNameContainer {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.arrowAndNameContainer a {
+  text-decoration: none;
+  color: #fff;
+}
+.imagePokemonContainer {
+  position: relative;
+  width: fit-content;
+  left: 5em;
+  margin: -1.5em 0;
+}
+.imagePokemonContainer a {
+  display: unset;
+}
+.leftFrame {
+  transform: rotate(0.5turn);
+}
+.buttonContainer {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding-top: 3.5em;
+}
+.buttonContainer button {
+  border-radius: 20px;
+  border: 0;
+  color: #ffff;
+
+  padding: 0.2em 0.5em;
+}
+.atributesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconAndValueMainContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.pokemonImg {
+  max-width: 12.5em;
+}
+
+.moves {
+  font-size: 0.8em;
+}
+.informationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+}
+.informationContainer p {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+.weight {
+  color: #756d6d;
+  font-size: 0.8em;
+}
+.heightContainer {
+  border-left: solid #756d6d 1px;
+  border-right: solid #756d6d 1px;
+}
+.baseStatsContainer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 70%;
+  align-self: center;
+  gap: 1em;
+  padding: 1em 1.5em;
+}
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.7em; */
+  width: 100%;
+  height: 6.5em;
+  justify-content: space-between;
+}
+.progress {
+  height: 0.8em;
+  width: 100%;
+}
+.nameStatsContainer {
+  text-align: end;
+  border-right: solid #756d6d 1px;
+  padding-right: 1em;
+}
+.nameStatsContainer h3 {
+  font-weight: bold;
+  margin: 0;
+  text-align: right;
+  font-size: small;
+}
+.numberStatsContainer h3 {
+  margin: 0;
+  color: #000;
+  font-weight: normal;
+  font-size: small;
+}
+
+.Grassprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+
+.Grassprogress::-webkit-progress-value {
+  background-color: #74cb48;
+}
+
+.Grassprogress {
+  background-color: #eee;
+}
+
+.Fireprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Fireprogress::-webkit-progress-value {
+  background-color: #f57d31;
+}
+.Fireprogress {
+  background-color: #eee;
+}
+
+.Waterprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Waterprogress::-webkit-progress-value {
+  background-color: #6493eb;
+}
+.Waterprogress {
+  background-color: #eee;
+}
+.Bugprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Bugprogress::-webkit-progress-value {
+  background-color: #a7b723;
+}
+.Bugprogress {
+  background-color: #eee;
+}
+
+.Electricprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Electricprogress::-webkit-progress-value {
+  background-color: #f9cf30;
+}
+.Electricprogress {
+  background-color: #eee;
+}
+.Ghostprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Ghostprogress::-webkit-progress-value {
+  background-color: #70559b;
+}
+.Ghostprogress {
+  background-color: #eee;
+}
+.Normalprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Normalprogress::-webkit-progress-value {
+  background-color: #aaa67f;
+}
+.Normalprogress {
+  background-color: #eee;
+}
+
+.Psychicprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Psychicprogress::-webkit-progress-value {
+  background-color: #fb5584;
+}
+.Psychicprogress {
+  background-color: #eee;
+}
+
+.Steelprogress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+.Steelprogress::-webkit-progress-value {
+  background-color: #b7b9d0;
+}
+.Steelprogress {
+  background-color: #eee;
+}
+@media only screen and (min-width: 450px) {
+  .pokeballImgContainer {
+    display: none;
+  }
+  .imagePokemonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: auto;
+    left: 0;
+    margin: -4.6em 0;
+  }
+  .pokemonImg {
+    max-width: 12.5em;
+  }
+  .aboutBaseStats {
+    padding: 0.2em;
+    margin: 0;
+  }
+  .baseStatsContainer {
+    padding: 0.2em 1.5em;
+  }
+  .description {
+    text-align: center;
+  }
+  .arrowAndNameContainer h1 {
+    z-index: 1;
+  }
+}

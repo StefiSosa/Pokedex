@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+a {
+  display: flex;
+  justify-content: center;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0.1em;
+}
+.homeMain {
+  background-image: url("/images/divFather.jpg");
+}
+.headerHome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff000094;
+}
+
+.imageH1HeaderContainer {
+  display: flex;
+  align-items: center;
+  /* gap: 1.3em; */
+}
+.imageH1HeaderContainer h1 {
+  font-weight: bolder;
+  margin: 0;
+  color: #fff;
+}
+.imageLogoContainer {
+  width: 3em;
+}
+
+.imageLogo {
+  width: 100%;
+  height: auto;
+}
+input {
+  width: 50%;
+  border: solid 2px #ff000094;
+  border-radius: 5px;
+  outline: none;
+}
+input:focus {
+  border: solid 0.2em #b69e31;
+  background-color: #d6cb9c;
+}
+.myButton {
+  /* box-shadow: 3px 4px 0px 0px #8a2a21; */
+  /* background: linear-gradient(to bottom, #ff000094 5%, #ff000094 100%); */
+  background-color: #ff0000cc;
+  border-radius: 5px;
+  border: 3px solid #d02718;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 0.1em 1.5em;
+  margin-left: 1em;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  background-color: #ff000094;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.myButton img {
+  width: 1.4em;
+  filter: invert(100%);
+}
+
+.arrowContainer {
+  display: flex;
+  margin-right: 0.5em;
+  gap: 0.5em;
+}
+
+.arrowContainer h4 {
+  margin: 0;
+  color: #fff;
+}
+.arrowImageContainer {
+  filter: invert(100%);
+}
+.cardsContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.cardHome {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-radius: 15px;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.8);
+  transition: all 600ms ease-out;
+}
+.cardHome:hover {
+  transform: rotate(360deg);
+}
+
+.cardIdCardImageContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffc;
+  border-radius: 15px 15px 0px 0px;
+}
+.cardImage {
+  width: 80%;
+  align-self: center;
+  max-width: 11em;
+}
+
+.cardId {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: end;
+  padding: 10px;
+  align-self: flex-end;
+}
+
+.cardName {
+  text-align: center;
+  color: #ffff;
+}
+
+.Grass {
+  border: solid #74cb48 2px;
+  background-color: #74cb48;
+  color: #74cb48;
+}
+
+.Fire {
+  border: solid #f57d31 2px;
+  background-color: #f57d31;
+  color: #f57d31;
+}
+
+.Water {
+  border: solid #6493eb 2px;
+  background-color: #6493eb;
+  color: #6493eb;
+}
+
+.Bug {
+  border: solid #a7b723 2px;
+  background-color: #a7b723;
+  color: #a7b723;
+}
+
+.Electric {
+  border: solid #f9cf30 2px;
+  background-color: #f9cf30;
+  color: #f9cf30;
+}
+
+.Ghost {
+  border: solid #70559b 2px;
+  background-color: #70559b;
+  color: #70559b;
+}
+
+.Normal {
+  border: solid #aaa67f 2px;
+  background-color: #aaa67f;
+  color: #aaa67f;
+}
+
+.Psychic {
+  border: solid #fb5584 2px;
+  background-color: #fb5584;
+  color: #fb5584;
+}
+
+.Steel {
+  border: solid #b7b9d0 2px;
+  background-color: #b7b9d0;
+  color: #b7b9d0;
+}
+.Poison {
+  background-color: #a43e9e;
+}
+.Flying {
+  background-color: #a891ec;
+}
+.Rock {
+  background-color: #b69e31;
+}
+
+@media only screen and (min-width: 450px) {
+  .cardHome {
+    width: auto;
+  }
+  .cardsContainer {
+    min-height: 88vh;
+  }
+  .cardIdCardImageContainer {
+    height: 80%;
+  }
+  .cardName {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  .cardId {
+    font-size: 1.5em;
+  }
+  .cardImage {
+    max-width: 13em;
+  }
+}
